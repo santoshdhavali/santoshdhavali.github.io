@@ -9815,3 +9815,113 @@ font-family: "Exo", serif;
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+
+        /************************************************ Social Media **************************************************/
+        .contac-socilmedia {
+          margin-top: 24px;
+        }
+    
+        .contac-socilmedia h2 {
+          font-weight: 600;
+          font-family: "Red Hat Display", sans-serif;
+          font-size: 2.5rem;
+          text-align: center;
+          text-shadow: 1px 2px 3px #000;
+          margin-bottom: 24px;
+        }
+    
+    
+        .contac-socilmedia ul {
+          position: relative;
+          display: flex;
+          transform: rotate(0deg) skew(0deg);
+          transform-style: preserve-3d;
+          justify-content: center;
+        }
+    
+        .contac-socilmedia ul li {
+          position: relative;
+          list-style: none;
+          width: 60px;
+          height: 60px;
+          margin: 0px 20px;
+          text-shadow: #2a2a2a;
+        }
+    
+        .contac-socilmedia ul li span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex !important;
+          background: #070606;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-size: 30px !important;
+          transition: 1.5s ease-out;
+          border-radius: 17px;
+        }
+    
+        .contac-socilmedia ul li:hover span {
+          z-index: 1000;
+          transition: .3s;
+          color: #fff;
+          box-shadow: -1px 1px 1px rgba(0, 0, 0, .5);
+          border-radius: 17px;
+        }
+    
+        .contac-socilmedia ul li:hover span:nth-child(5) {
+          transform: translate(40px, 40px);
+          opacity: 1;
+        }
+    
+        .contac-socilmedia ul li:hover span:nth-child(4) {
+          transform: translate(30px, 30px);
+          opacity: .8;
+        }
+    
+        .contac-socilmedia ul li:hover span:nth-child(3) {
+          transform: translate(20px, 20px);
+          opacity: .6;
+        }
+    
+        .contac-socilmedia ul li:hover span:nth-child(2) {
+          transform: translate(10px, 10px);
+          opacity: .4;
+        }
+    
+        .footer ul li:hover span:nth-child(1) {
+          transform: translate(0px, 0px);
+          opacity: .2;
+        }
+    
+        .contac-socilmedia ul li:nth-child(1):hover span {
+          background: #ff9d00 !important;
+        }
+    
+        .contac-socilmedia ul li:nth-child(3):hover span {
+          background: #0076b5 !important;
+        }
+    
+        .contac-socilmedia ul li:nth-child(5):hover span {
+          background: #1877F2 !important;
+        }
+    
+        .contac-socilmedia ul li:nth-child(7):hover span {
+          background: #C13584 !important;
+        }
+    
+        .contac-socilmedia ul li:nth-child(9):hover span {
+          background: #c4302b !important;
+        }
+    
+        .contac-socilmedia ul li:nth-child(11):hover span {
+          background: #6fd46f !important;
+        }
