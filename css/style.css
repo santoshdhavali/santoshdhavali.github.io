@@ -486,8 +486,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 15px;
+  margin-left: 15px;
   justify-content: center;
 }
 .no-gutters {
