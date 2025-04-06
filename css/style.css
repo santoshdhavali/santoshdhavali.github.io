@@ -10035,3 +10035,7 @@ font-family: "Exo", serif;
               padding-left: 25px;
             }
     }
+
+.copy-right {
+text-align: center !important;
+}
