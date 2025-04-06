@@ -9965,6 +9965,10 @@ font-family: "Exo", serif;
                 padding-top: 15px;
                   margin-top: 6px;
           }
+           .img-fluid {
+            max-width: 60%;
+            height: auto;
+          }
 
         }
 
